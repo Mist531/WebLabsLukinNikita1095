@@ -1,0 +1,56 @@
+* {
+    position: fixed;
+}
+
+#orange {
+    background-color: orange;
+    top: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+}
+
+#blue {
+    background-color: blue;
+    top: 10%;
+    left: 0;
+    height: 80%;
+    width: 20%;
+}
+
+#yellow {
+    background-color: yellow;
+    top: 10%;
+    right: 0;
+    height: 80%;
+    width: 60%;
+}
+
+#deeppink {
+    background-color: deeppink;
+    margin: 5%;
+    height: 8%;
+    width: 45%;
+}
+
+#green {
+    background-color: green;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+}
+#pink{
+    background-color: pink;
+    top: 10%;
+    left: 20%;
+    height: 80%;
+    width: 20%;
+}
+
+#lightgray{
+    background-color: lightgray;
+    margin: 2%;
+    height: 8%;
+    width: 45%;
+}

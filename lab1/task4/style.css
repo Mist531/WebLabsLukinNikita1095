@@ -1,0 +1,30 @@
+#top {
+    background-color: darkseagreen;
+    margin-bottom: 5px;
+    border: solid 1px black;
+    padding: 10px 0 10px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#col1 {
+    background-color: #800000;
+    position: absolute;
+    width: 190px;
+    margin-left: -200px;
+}
+#col2 {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+#container {
+    border-left: solid 200px #800000;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+#bottom {
+    background-color: darkseagreen;
+    border: solid 1px black;
+    padding: 3px;
+}
