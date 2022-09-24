@@ -1,0 +1,31 @@
+#top {
+    background-color: darkseagreen;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px 0 10px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#menu {
+    background-color: darkseagreen;
+    position: sticky;
+    top:3px;
+    float: left;
+    width: 20%;
+    border: solid 1px black;
+    padding: 3px;
+}
+#content {
+    background-color: darkseagreen;
+    border: solid 1px black;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 21%;
+}
+#bottom {
+    background-color: darkseagreen;
+    border: solid 1px black;
+    text-align: justify;
+    padding: 15px;
+}

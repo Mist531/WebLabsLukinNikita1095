@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2</title>
+    <link rel="stylesheet" href="../css/form_style.css">
+</head>
+<body>
+<form lang="ru" action="">
+    <div class="container">
+        <h2 id="header">Заполните форму</h2>
+
+        <label>Имя
+            <input type="text" placeholder="Введите имя" name="first_name" required maxlength="20">
+        </label>
+
+        <label>Фамилия
+            <input type="text" placeholder="Введите фамилию" name="last_name" required>
+        </label>
+
+        <label>Email
+            <input type="email" name="email" required maxlength="50" placeholder="Введите email">
+        </label>
+
+        <label>Ваш пол
+            <div class="margin_label">
+                <label>Мужской
+                    <input type="radio" name="gender" value="male">
+                </label>
+                <label>Женский
+                    <input type="radio" name="gender" value="female">
+                </label>
+            </div>
+        </label>
+
+        <label>Ваш возраст
+            <div class="margin_label">
+                <select name="age">
+                    <option value="Выберите свой возвраст"></option>
+                    <OPTION value="0-18 лет">0-18 лет</OPTION>
+                    <OPTION value="18-30 лет">18-30 лет</OPTION>
+                    <OPTION value="30-45 дет">30-45 лет</OPTION>
+                    <OPTION value="45-60 лет">45-60 лет</OPTION>
+                    <OPTION value="60+ лет">60+ лет</OPTION>
+                </select>
+            </div>
+        </label>
+
+        <label>Подписаться на рассылку
+            <input type="checkbox" name="news_letter">
+        </label>
+
+        <input id="submit" type="submit" name="send" value="Отправить">
+    </div>
+</form>
+</body>
+</html>
