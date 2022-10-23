@@ -1,0 +1,17 @@
+
+#top {
+    margin: 1.4em 2em;
+    color: #494949;
+}
+#content {
+    margin-left: 3em;
+}
+.img-wrapper {
+    margin-left: 1em;
+    padding: 30px;
+    height: 30vw;
+    width: fit-content;
+}
+.img-wrapper img {
+    height: 100%;
+}
