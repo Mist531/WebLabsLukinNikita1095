@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+    <meta charset="utf-8">
+    <head>
+        <title>Лабораторная работа №4</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body onload="loadBody()">
+    <div id="top">Заголовок сайта</div>
+    <div id="body-content">
+        <div id="menu">
+            <p>
+                <a href="./text1.html">Текст 1</a><br>
+                <a href="./text2.html">Текст 2</a>
+            </p>
+        </div>
+        <div id="content">
+            <p>Контент. Дизайн CSS две колонки, пожалуй, самый популярный.
+                Создать страницу с таким расположением колонок можно двумя способами, рассмотрим каждый отдельно.</p>
+            <p>С помощью CSS выполняется логическое форматирование html-документа, позволяющее разделить содержание и
+                оформление html-документа Использование CSS рекомендовано к применению WWW-консорциумом.</p>
+            <form id="login_form" class="back">
+                <h3 id="hello" ></h3>
+                <div class="right-float full-width">
+                    <label >Логин:
+                        <input type="text" name="login" id="login_input" class="right-float" placeholder="Логин" required>
+                    </label>
+                </div>
+                <div class="right-float full-width">
+                    <label >Пароль:
+                        <input type="password" name="password" class="right-float" id="password_input" placeholder="Пароль" required>
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="ОК" class="login-from-button">
+                    <input type="reset" value="Сброс" class="login-from-button">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="bottom">Подвал</div>
+    <script src="../scripts/script.js"></script>
+    </body>
+</html>

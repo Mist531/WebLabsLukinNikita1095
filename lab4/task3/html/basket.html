@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/basket.css">
+</head>
+<body onload="bodyLoad()">
+
+    <div id="top">Корзина</div>
+    <div id="body-content">
+
+        <div id="menu">
+            <p>
+                <a href="./index.html">Главная страница</a>
+            </p>
+        </div> 
+
+        <div id="content">
+            <div class="right-upper">
+                <h3>Добавить товар в корзину:</h3>
+                <form id="product_form" name="product_form" onsubmit="submitForm(name_product.value, order_by_one.value); return false" >
+                    <label>
+                        <input type="text" name="name_product" class="product-form-input" placeholder="Название товара" required>
+                    </label>
+                    <label>
+                        <input type="text" name="order_by_one" class="product-form-input" placeholder="Цена за штуку" required pattern="[0-9]+">
+                    </label>
+                    <input type="submit" class="product-form-input">
+                </form>
+            </div>
+        
+            <div id="product" >
+                <div id="product_name" >dsadsad</div>
+                <button id="product_amount_add" class="product-button">+</button>
+                <div id="product_amount" >10</div>
+                <button id="product_amount_remove" class="product-button">-</button>
+                <div id="product_order_by_one" hidden="on">10</div>
+                <div id="product_order" >1000</div>
+                <img src="../images/basket.png" height="32" width="32" alt="">
+            </div>
+        </div>
+    
+        
+    </div>
+    <div id="bottom">
+        <h2 class="total-order">Итоговая цена:  </h2>
+        <h1 id="total_order" class="total-order" style="color: cornflowerblue;">1000</h1>
+    </div>
+
+    <script src="../scripts/productsDB.js"></script>
+    <script src="../scripts/basket.js"></script>
+</body>
+</html>
