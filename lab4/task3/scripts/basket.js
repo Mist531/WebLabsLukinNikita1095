@@ -49,8 +49,10 @@ function createUIProduct(product) {
         updateTotalOrder()
     }
     getAmountRemoveButton(productUI).onclick = () => {
-        product.amount -= 1
-        setAmount(productUI, Math.max(1, product.amount))
+        if(product.amount > 0) {
+            product.amount -= 1
+        }
+        setAmount(productUI, Math.max(0, product.amount))
         writeProducts()
         updateOrderByProduct(productUI, product)
         updateTotalOrder()

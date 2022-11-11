@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №4</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body onload="loadQuestions()">
+    <div id="answers_menu">
+        <div id="answers_menu_text" hidden>
+            <p id="now_amount_right_answer"></p>
+            <p id="last_amount_right_answer"></p>
+        </div>
+        <button id="check_answer_button" onclick="checkAnswers()">Проверить</button>
+    </div>
+    <div id="questions"></div>
+    <script src="scripts/questionsDB.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

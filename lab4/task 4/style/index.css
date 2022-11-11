@@ -1,0 +1,39 @@
+#line_div {
+    display: flex;
+}
+#question {
+    flex: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    float: left;
+}
+.question-answer {
+    font-size: 20px;
+}
+.question-text {
+    font-size: 25px;
+}
+#answers_menu {
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#check_answer_button {
+    flex: 50%;
+    background-color: darkgray;
+    font-size: 25px;
+    height: 120px;
+}
+#answers_menu_text {
+    flex: 50%;
+}
