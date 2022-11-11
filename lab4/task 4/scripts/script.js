@@ -30,41 +30,6 @@ addAnswerInQuestion(secondQuestion, createAnswer("Пшеница", "4"))
 setRightAnswer(secondQuestion, "2")
 addQuestion(secondQuestion)
 
-
-const thirdQuestion = createQuestion("third")
-setText(thirdQuestion, "Из какого злака делается пшено?")
-addAnswerInQuestion(thirdQuestion, createAnswer("Овес", "1"))
-addAnswerInQuestion(thirdQuestion, createAnswer("Просо", "2"))
-addAnswerInQuestion(thirdQuestion, createAnswer("Ячмень", "3"))
-setRightAnswer(thirdQuestion, "2")
-addQuestion(thirdQuestion)
-
-const fourthQuestion = createQuestion("fourth")
-setText(fourthQuestion, "Из какого злака делается пшено?")
-addAnswerInQuestion(fourthQuestion, createAnswer("Овес", "1"))
-addAnswerInQuestion(fourthQuestion, createAnswer("Просо", "2"))
-addAnswerInQuestion(fourthQuestion, createAnswer("Ячмень", "3"))
-setRightAnswer(fourthQuestion, "2")
-addQuestion(fourthQuestion)
-
-const fifthQuestion = createQuestion("fifth")
-setText(fifthQuestion, "Из какого злака делается пшено?")
-addAnswerInQuestion(fifthQuestion, createAnswer("Овес", "1"))
-addAnswerInQuestion(fifthQuestion, createAnswer("Просо", "2"))
-addAnswerInQuestion(fifthQuestion, createAnswer("Ячмень", "3"))
-setRightAnswer(fifthQuestion, "2")
-addQuestion(fifthQuestion)
-
-const sixthQuestion = createQuestion("sixth")
-setText(sixthQuestion, "Из какого злака делается пшено?")
-addAnswerInQuestion(sixthQuestion, createAnswer("Овес", "1"))
-addAnswerInQuestion(sixthQuestion, createAnswer("Просо", "2"))
-addAnswerInQuestion(sixthQuestion, createAnswer("Ячмень", "3"))
-setRightAnswer(sixthQuestion, "2")
-addQuestion(sixthQuestion)
-
-
-
 function createLineDiv() {
     const div = document.createElement("div");
     div.id = line_div_id
